@@ -1,0 +1,1452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BrightAuthor version="6" BrightAuthorVersion="5.0.0.4" type="project">
+  <meta>
+    <name>doldermanNarrowcasting</name>
+    <isBackup>False</isBackup>
+    <model>HD224</model>
+    <videoMode>1920x1080x60p</videoMode>
+    <monitorOrientation>Landscape</monitorOrientation>
+    <videoConnector>HDMI</videoConnector>
+    <deviceWebPageDisplay>Standard</deviceWebPageDisplay>
+    <alphabetizeVariableNames>True</alphabetizeVariableNames>
+    <delayScheduleChangeUntilMediaEndEvent>False</delayScheduleChangeUntilMediaEndEvent>
+    <htmlEnableJavascriptConsole>False</htmlEnableJavascriptConsole>
+    <backgroundScreenColor a="255" r="0" g="0" b="0" />
+    <forceResolution>True</forceResolution>
+    <dolbyVision>False</dolbyVision>
+    <fullResGraphicsEnabled>False</fullResGraphicsEnabled>
+    <tenBitColorEnabled>False</tenBitColorEnabled>
+    <monitorOverscan>noOverscan</monitorOverscan>
+    <gpio0>input</gpio0>
+    <gpio1>input</gpio1>
+    <gpio2>input</gpio2>
+    <gpio3>input</gpio3>
+    <gpio4>input</gpio4>
+    <gpio5>input</gpio5>
+    <gpio6>input</gpio6>
+    <gpio7>input</gpio7>
+    <BP900AConfigureAutomatically>True</BP900AConfigureAutomatically>
+    <BP900BConfigureAutomatically>True</BP900BConfigureAutomatically>
+    <BP900CConfigureAutomatically>True</BP900CConfigureAutomatically>
+    <BP900DConfigureAutomatically>True</BP900DConfigureAutomatically>
+    <BP200AConfigureAutomatically>True</BP200AConfigureAutomatically>
+    <BP200BConfigureAutomatically>True</BP200BConfigureAutomatically>
+    <BP200CConfigureAutomatically>True</BP200CConfigureAutomatically>
+    <BP200DConfigureAutomatically>True</BP200DConfigureAutomatically>
+    <BP900AConfiguration>0</BP900AConfiguration>
+    <BP900BConfiguration>0</BP900BConfiguration>
+    <BP900CConfiguration>0</BP900CConfiguration>
+    <BP900DConfiguration>0</BP900DConfiguration>
+    <BP200AConfiguration>0</BP200AConfiguration>
+    <BP200BConfiguration>0</BP200BConfiguration>
+    <BP200CConfiguration>0</BP200CConfiguration>
+    <BP200DConfiguration>0</BP200DConfiguration>
+    <SerialPortConfiguration>
+      <port>0</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>1</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>2</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>3</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>4</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>5</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>6</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>7</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <udpDestinationAddressType>IPAddress</udpDestinationAddressType>
+    <udpDestinationAddress>255.255.255.255</udpDestinationAddress>
+    <udpDestinationPort>5000</udpDestinationPort>
+    <udpReceiverPort>5000</udpReceiverPort>
+    <flipCoordinates>false</flipCoordinates>
+    <touchCursorDisplayMode>auto</touchCursorDisplayMode>
+    <language>English</language>
+    <languageKey>eng</languageKey>
+    <audioConfiguration>MixedAudioPCMOnly</audioConfiguration>
+    <audioAutoLevel>False</audioAutoLevel>
+    <audio1MinVolume>0</audio1MinVolume>
+    <audio1MaxVolume>100</audio1MaxVolume>
+    <audio2MinVolume>0</audio2MinVolume>
+    <audio2MaxVolume>100</audio2MaxVolume>
+    <audio3MinVolume>0</audio3MinVolume>
+    <audio3MaxVolume>100</audio3MaxVolume>
+    <usbAMinVolume>0</usbAMinVolume>
+    <usbAMaxVolume>100</usbAMaxVolume>
+    <usbBMinVolume>0</usbBMinVolume>
+    <usbBMaxVolume>100</usbBMaxVolume>
+    <usbCMinVolume>0</usbCMinVolume>
+    <usbCMaxVolume>100</usbCMaxVolume>
+    <usbDMinVolume>0</usbDMinVolume>
+    <usbDMaxVolume>100</usbDMaxVolume>
+    <usbTypeAMinVolume>0</usbTypeAMinVolume>
+    <usbTypeAMaxVolume>100</usbTypeAMaxVolume>
+    <usbTypeCMinVolume>0</usbTypeCMinVolume>
+    <usbTypeCMaxVolume>100</usbTypeCMaxVolume>
+    <usb700_1MinVolume>0</usb700_1MinVolume>
+    <usb700_1MaxVolume>100</usb700_1MaxVolume>
+    <usb700_2MinVolume>0</usb700_2MinVolume>
+    <usb700_2MaxVolume>100</usb700_2MaxVolume>
+    <usb700_3MinVolume>0</usb700_3MinVolume>
+    <usb700_3MaxVolume>100</usb700_3MaxVolume>
+    <usb700_4MinVolume>0</usb700_4MinVolume>
+    <usb700_4MaxVolume>100</usb700_4MaxVolume>
+    <usb700_5MinVolume>0</usb700_5MinVolume>
+    <usb700_5MaxVolume>100</usb700_5MaxVolume>
+    <usb700_6MinVolume>0</usb700_6MinVolume>
+    <usb700_6MaxVolume>100</usb700_6MaxVolume>
+    <usb700_7MinVolume>0</usb700_7MinVolume>
+    <usb700_7MaxVolume>100</usb700_7MaxVolume>
+    <hdmiMinVolume>0</hdmiMinVolume>
+    <hdmiMaxVolume>100</hdmiMaxVolume>
+    <spdifMinVolume>0</spdifMinVolume>
+    <spdifMaxVolume>100</spdifMaxVolume>
+    <mediaListInactivityTimeoutIsGlobal>True</mediaListInactivityTimeoutIsGlobal>
+    <inactivityTimeout>False</inactivityTimeout>
+    <inactivityTime>30</inactivityTime>
+    <autoCreateMediaCounterVariables>False</autoCreateMediaCounterVariables>
+    <resetVariablesOnPresentationStart>False</resetVariablesOnPresentationStart>
+    <networkedVariablesUpdateInterval>300</networkedVariablesUpdateInterval>
+    <userDefinedEvents>
+    </userDefinedEvents>
+    <userVariables>
+    </userVariables>
+    <liveDataFeeds>
+      <liveDataFeed>
+        <name>opleveringSchepen</name>
+        <url>
+          <parameterValue>
+            <parameterValueItemText>
+              <value>http://bsnm.s3.amazonaws.com/Dolderman/a24ef1faf9169688495af419d2c95c44</value>
+            </parameterValueItemText>
+          </parameterValue>
+        </url>
+        <dataFeedUse>MRSS</dataFeedUse>
+        <updateInterval>300</updateInterval>
+        <useHeadRequest>True</useHeadRequest>
+        <parserPluginName />
+        <autoGenerateUserVariables>False</autoGenerateUserVariables>
+        <userVariableAccess>Private</userVariableAccess>
+        <uvParserPluginName />
+      </liveDataFeed>
+      <liveDataFeed>
+        <name>internNews</name>
+        <url>
+          <parameterValue>
+            <parameterValueItemText>
+              <value>http://bsnm.s3.amazonaws.com/Dolderman/Feeds/6ec6218ed2bca49edfff7e79f12f6d31</value>
+            </parameterValueItemText>
+          </parameterValue>
+        </url>
+        <dataFeedUse>Text</dataFeedUse>
+        <updateInterval>300</updateInterval>
+        <useHeadRequest>True</useHeadRequest>
+        <parserPluginName />
+        <autoGenerateUserVariables>False</autoGenerateUserVariables>
+        <userVariableAccess>Private</userVariableAccess>
+        <uvParserPluginName />
+      </liveDataFeed>
+      <liveDataFeed>
+        <name>video</name>
+        <liveDynamicPlaylist>
+          <id>18225778</id>
+          <name>videoFeed</name>
+          <url>http://bsnm.s3.amazonaws.com/Dolderman/02843d6d082c0fe98cd076d210582a20</url>
+          <supportsAudio>False</supportsAudio>
+        </liveDynamicPlaylist>
+        <dataFeedUse>MRSS</dataFeedUse>
+        <updateInterval>300</updateInterval>
+        <useHeadRequest>True</useHeadRequest>
+        <parserPluginName />
+        <autoGenerateUserVariables>False</autoGenerateUserVariables>
+        <userVariableAccess>Private</userVariableAccess>
+        <uvParserPluginName />
+      </liveDataFeed>
+      <liveDataFeed>
+        <name>background</name>
+        <liveDynamicPlaylist>
+          <id>18289646</id>
+          <name>background</name>
+          <url>http://bsnm.s3.amazonaws.com/Dolderman/7d4630247f03d3c324c3bbf16458c95b</url>
+          <supportsAudio>False</supportsAudio>
+        </liveDynamicPlaylist>
+        <dataFeedUse>MRSS</dataFeedUse>
+        <updateInterval>300</updateInterval>
+        <useHeadRequest>True</useHeadRequest>
+        <parserPluginName />
+        <autoGenerateUserVariables>False</autoGenerateUserVariables>
+        <userVariableAccess>Private</userVariableAccess>
+        <uvParserPluginName />
+      </liveDataFeed>
+      <liveDataFeed>
+        <name>buienRader</name>
+        <url>
+          <parameterValue>
+            <parameterValueItemText>
+              <value>https://data.buienradar.nl/1.0/feed/xml/rssbuienradar</value>
+            </parameterValueItemText>
+          </parameterValue>
+        </url>
+        <dataFeedUse>MRSS</dataFeedUse>
+        <updateInterval>300</updateInterval>
+        <useHeadRequest>True</useHeadRequest>
+        <parserPluginName />
+        <autoGenerateUserVariables>False</autoGenerateUserVariables>
+        <userVariableAccess>Private</userVariableAccess>
+        <uvParserPluginName />
+      </liveDataFeed>
+      <liveDataFeed>
+        <name>buierader</name>
+        <url>
+          <parameterValue>
+            <parameterValueItemText>
+              <value>https://data.buienradar.nl/1.0/feed/xml/rssbuienradar</value>
+            </parameterValueItemText>
+          </parameterValue>
+        </url>
+        <dataFeedUse>Text</dataFeedUse>
+        <updateInterval>300</updateInterval>
+        <useHeadRequest>True</useHeadRequest>
+        <parserPluginName />
+        <autoGenerateUserVariables>False</autoGenerateUserVariables>
+        <userVariableAccess>Private</userVariableAccess>
+        <uvParserPluginName />
+      </liveDataFeed>
+    </liveDataFeeds>
+    <scriptPlugins>
+    </scriptPlugins>
+    <videoModePlugins>
+    </videoModePlugins>
+    <parserPlugins>
+    </parserPlugins>
+    <htmlSites>
+      <localHTMLSite>
+        <name>weerWidget</name>
+        <queryString>
+          <parameterValue>
+            <parameterValueItemText>
+              <value />
+            </parameterValueItemText>
+          </parameterValue>
+        </queryString>
+        <filePath>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\02 Widgets\Buienradar\Buienradar 330 aangepast\Buienradar 330 met refresh.html</filePath>
+      </localHTMLSite>
+      <remoteHTMLSite>
+        <name>nu.nl</name>
+        <queryString>
+          <parameterValue>
+            <parameterValueItemText>
+              <value />
+            </parameterValueItemText>
+          </parameterValue>
+        </queryString>
+        <url>
+          <parameterValue>
+            <parameterValueItemText>
+              <value>https://www.nu.nl/</value>
+            </parameterValueItemText>
+          </parameterValue>
+        </url>
+      </remoteHTMLSite>
+      <localHTMLSite>
+        <name>weerWidget550</name>
+        <queryString>
+          <parameterValue>
+            <parameterValueItemText>
+              <value />
+            </parameterValueItemText>
+          </parameterValue>
+        </queryString>
+        <filePath>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\02 Widgets\Buienradar\Buienrader 550\Buienradar 550 met refresh.html</filePath>
+      </localHTMLSite>
+    </htmlSites>
+    <presentationIdentifiers>
+    </presentationIdentifiers>
+    <beacons>
+    </beacons>
+    <DirectoryLocations>
+      <AllFiles>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</AllFiles>
+      <Image>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\04 Logo's aangeleverd</Image>
+      <Video>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</Video>
+      <Audio>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</Audio>
+      <Media>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</Media>
+      <Fonts>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\05 Fonts aangeleverd</Fonts>
+      <HTML>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\02 Widgets\Buienradar\Buienrader 550</HTML>
+      <PluginScriptsAutoruns>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</PluginScriptsAutoruns>
+      <CSV>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</CSV>
+      <RFChannelScan>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</RFChannelScan>
+      <Schedules>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</Schedules>
+      <ReplacementMedia>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</ReplacementMedia>
+      <UserVariables>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</UserVariables>
+      <XModemFiles>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</XModemFiles>
+      <ImportCommandFiles>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\01 Presentatie</ImportCommandFiles>
+    </DirectoryLocations>
+    <graphicsZOrder>Front</graphicsZOrder>
+    <isMosaic>False</isMosaic>
+  </meta>
+  <zones>
+    <zone>
+      <name>backGround</name>
+      <x>0</x>
+      <y>0</y>
+      <width>1919</width>
+      <height>1079</height>
+      <type>Images</type>
+      <id>0</id>
+      <zoomValue>1</zoomValue>
+      <horizontalOffset>0</horizontalOffset>
+      <verticalOffset>0</verticalOffset>
+      <zoneSpecificParameters>
+        <imageMode>Scale to Fit</imageMode>
+      </zoneSpecificParameters>
+      <playlist>
+        <name>Playlist 5</name>
+        <type>interactive</type>
+        <states>
+          <initialState>background</initialState>
+          <state>
+            <name>background</name>
+            <x>289</x>
+            <y>213</y>
+            <width>114</width>
+            <height>97</height>
+            <id>0</id>
+            <mrssDataFeedPlaylistItem>
+              <stateName>background</stateName>
+              <liveDataFeedName>background</liveDataFeedName>
+              <usesBSNDynamicPlaylist>True</usesBSNDynamicPlaylist>
+              <videoPlayerRequired>False</videoPlayerRequired>
+            </mrssDataFeedPlaylistItem>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+            <notes />
+          </state>
+        </states>
+      </playlist>
+    </zone>
+    <zone>
+      <name>eventHandeler</name>
+      <x>0</x>
+      <y>992</y>
+      <width>161</width>
+      <height>88</height>
+      <type>Images</type>
+      <id>1</id>
+      <zoomValue>1</zoomValue>
+      <horizontalOffset>0</horizontalOffset>
+      <verticalOffset>0</verticalOffset>
+      <zoneSpecificParameters>
+        <imageMode>Scale to Fit</imageMode>
+      </zoneSpecificParameters>
+      <playlist>
+        <name>Playlist 0</name>
+        <type>interactive</type>
+        <states>
+          <initialState>showWeer</initialState>
+          <state>
+            <name>showWeer</name>
+            <x>386</x>
+            <y>220</y>
+            <width>114</width>
+            <height>97</height>
+            <id>0</id>
+            <eventHandler2Item>
+              <stopPlayback>False</stopPlayback>
+            </eventHandler2Item>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>0</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>1</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>2</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>3</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>4</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>5</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>0</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>6</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>7</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+            <notes />
+          </state>
+          <state>
+            <name>showVideo+StartVideo</name>
+            <x>563</x>
+            <y>222</y>
+            <width>114</width>
+            <height>97</height>
+            <id>1</id>
+            <eventHandler2Item>
+              <stopPlayback>False</stopPlayback>
+            </eventHandler2Item>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>3</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>SendZoneMessage</name>
+              <customUI>False</customUI>
+              <command>
+                <name>sendZoneMessage</name>
+                <parameter>
+                  <name>zoneMessage</name>
+                  <uiElementName>zoneMessage</uiElementName>
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>startVideo</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>0</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>1</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>2</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>4</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>5</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>6</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>7</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+            <notes />
+          </state>
+          <state>
+            <name>showFeed</name>
+            <x>726</x>
+            <y>221</y>
+            <width>114</width>
+            <height>97</height>
+            <id>2</id>
+            <eventHandler2Item>
+              <stopPlayback>False</stopPlayback>
+            </eventHandler2Item>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>0</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>1</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>2</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>HideZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>hideZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>3</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>4</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>5</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>6</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignCmd>
+              <name>ShowZone</name>
+              <customUI>True</customUI>
+              <command>
+                <name>showZone</name>
+                <parameter>
+                  <name>zone</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>7</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+            <notes />
+          </state>
+          <transition>
+            <sourceMediaState>showWeer</sourceMediaState>
+            <userEvent>
+              <name>timeout</name>
+              <parameters>
+                <parameter>30</parameter>
+              </parameters>
+            </userEvent>
+            <targetMediaState>showVideo+StartVideo</targetMediaState>
+            <remainOnCurrentStateActions>None</remainOnCurrentStateActions>
+            <displayMode>displayLabel</displayMode>
+            <labelLocation>bottom</labelLocation>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+          <transition>
+            <sourceMediaState>showVideo+StartVideo</sourceMediaState>
+            <userEvent>
+              <name>zoneMessage</name>
+              <parameters>
+                <parameter>videoDone</parameter>
+              </parameters>
+            </userEvent>
+            <targetMediaState>showFeed</targetMediaState>
+            <remainOnCurrentStateActions>None</remainOnCurrentStateActions>
+            <displayMode>displayLabel</displayMode>
+            <labelLocation>bottom</labelLocation>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+          <transition>
+            <sourceMediaState>showFeed</sourceMediaState>
+            <userEvent>
+              <name>timeout</name>
+              <parameters>
+                <parameter>60</parameter>
+              </parameters>
+            </userEvent>
+            <targetMediaState>showWeer</targetMediaState>
+            <remainOnCurrentStateActions>None</remainOnCurrentStateActions>
+            <displayMode>displayLabel</displayMode>
+            <labelLocation>bottom</labelLocation>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+        </states>
+      </playlist>
+    </zone>
+    <zone>
+      <name>weerWidget</name>
+      <x>686</x>
+      <y>283</y>
+      <width>550</width>
+      <height>512</height>
+      <type>Images</type>
+      <id>2</id>
+      <zoomValue>1</zoomValue>
+      <horizontalOffset>0</horizontalOffset>
+      <verticalOffset>0</verticalOffset>
+      <zoneSpecificParameters>
+        <imageMode>Scale to Fit</imageMode>
+      </zoneSpecificParameters>
+      <playlist>
+        <name>Playlist 2</name>
+        <type>interactive</type>
+        <states>
+          <initialState>weerWidget550</initialState>
+          <state>
+            <name>weerWidget550</name>
+            <x>595</x>
+            <y>233</y>
+            <width>114</width>
+            <height>97</height>
+            <id>1</id>
+            <html5Item>
+              <name>weerWidget550</name>
+              <htmlSiteName>weerWidget550</htmlSiteName>
+              <enableExternalData>False</enableExternalData>
+              <enableCamera>False</enableCamera>
+              <enableMouseEvents>True</enableMouseEvents>
+              <displayCursor>False</displayCursor>
+              <hwzOn>True</hwzOn>
+              <enableScrollBars>False</enableScrollBars>
+              <useUserStylesheet>False</useUserStylesheet>
+              <userStylesheet />
+              <timeOnScreen>0</timeOnScreen>
+            </html5Item>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+            <notes />
+          </state>
+        </states>
+      </playlist>
+    </zone>
+    <zone>
+      <name>Video</name>
+      <x>0</x>
+      <y>0</y>
+      <width>1919</width>
+      <height>1079</height>
+      <type>VideoOrImages</type>
+      <id>3</id>
+      <zoomValue>1</zoomValue>
+      <horizontalOffset>0</horizontalOffset>
+      <verticalOffset>0</verticalOffset>
+      <zoneSpecificParameters>
+        <viewMode>Letterboxed and Centered</viewMode>
+        <audioOutput>Analog Audio</audioOutput>
+        <audioMode>Multichannel Surround</audioMode>
+        <audioMapping>Audio-1</audioMapping>
+        <analogOutput>None</analogOutput>
+        <analog2Output>None</analog2Output>
+        <analog3Output>None</analog3Output>
+        <hdmiOutput>PCM</hdmiOutput>
+        <spdifOutput>None</spdifOutput>
+        <usbOutput>None</usbOutput>
+        <usbOutputA>None</usbOutputA>
+        <usbOutputB>None</usbOutputB>
+        <usbOutputC>None</usbOutputC>
+        <usbOutputD>None</usbOutputD>
+        <usbOutputTypeA>None</usbOutputTypeA>
+        <usbOutputTypeC>None</usbOutputTypeC>
+        <usbOutput700_1>None</usbOutput700_1>
+        <usbOutput700_2>None</usbOutput700_2>
+        <usbOutput700_3>None</usbOutput700_3>
+        <usbOutput700_4>None</usbOutput700_4>
+        <usbOutput700_5>None</usbOutput700_5>
+        <usbOutput700_6>None</usbOutput700_6>
+        <usbOutput700_7>None</usbOutput700_7>
+        <audioMixMode>Stereo</audioMixMode>
+        <videoVolume>100</videoVolume>
+        <audioVolume>100</audioVolume>
+        <minimumVolume>0</minimumVolume>
+        <maximumVolume>100</maximumVolume>
+        <liveVideoInput>S-Video</liveVideoInput>
+        <liveVideoStandard>NTSC-M</liveVideoStandard>
+        <brightness>128</brightness>
+        <contrast>64</contrast>
+        <saturation>64</saturation>
+        <hue>0</hue>
+        <zOrderFront>True</zOrderFront>
+        <mosaic>False</mosaic>
+        <maxContentResolution>_NotApplicable</maxContentResolution>
+        <imageMode>Scale to Fit</imageMode>
+      </zoneSpecificParameters>
+      <playlist>
+        <name>Playlist 3</name>
+        <type>interactive</type>
+        <states>
+          <initialState>video</initialState>
+          <state>
+            <name>video</name>
+            <x>507</x>
+            <y>221</y>
+            <width>114</width>
+            <height>97</height>
+            <id>1</id>
+            <mrssDataFeedPlaylistItem>
+              <stateName>video</stateName>
+              <liveDataFeedName>video</liveDataFeedName>
+              <usesBSNDynamicPlaylist>True</usesBSNDynamicPlaylist>
+              <videoPlayerRequired>False</videoPlayerRequired>
+            </mrssDataFeedPlaylistItem>
+            <brightSignCmd>
+              <name>SetZoneVolume</name>
+              <customUI>True</customUI>
+              <command>
+                <name>setZoneVolume</name>
+                <parameter>
+                  <name>zoneId</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>3</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>volume</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>0</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+            <notes />
+          </state>
+          <transition>
+            <sourceMediaState>video</sourceMediaState>
+            <userEvent>
+              <name>mediaEnd</name>
+              <parameters>
+                <parameter />
+              </parameters>
+            </userEvent>
+            <targetMediaState />
+            <remainOnCurrentStateActions>StopClear</remainOnCurrentStateActions>
+            <displayMode>displayLabel</displayMode>
+            <labelLocation>bottom</labelLocation>
+            <brightSignCmd>
+              <name>SendZoneMessage</name>
+              <customUI>False</customUI>
+              <command>
+                <name>sendZoneMessage</name>
+                <parameter>
+                  <name>zoneMessage</name>
+                  <uiElementName>zoneMessage</uiElementName>
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>videoDone</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+          <transition>
+            <sourceMediaState>video</sourceMediaState>
+            <userEvent>
+              <name>zoneMessage</name>
+              <parameters>
+                <parameter>startVideo</parameter>
+              </parameters>
+            </userEvent>
+            <targetMediaState>video</targetMediaState>
+            <remainOnCurrentStateActions>None</remainOnCurrentStateActions>
+            <displayMode>displayLabel</displayMode>
+            <labelLocation>bottom</labelLocation>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+        </states>
+      </playlist>
+    </zone>
+    <zone>
+      <name>feed</name>
+      <x>0</x>
+      <y>0</y>
+      <width>1919</width>
+      <height>1079</height>
+      <type>Images</type>
+      <id>4</id>
+      <zoomValue>1</zoomValue>
+      <horizontalOffset>0</horizontalOffset>
+      <verticalOffset>0</verticalOffset>
+      <zoneSpecificParameters>
+        <imageMode>Scale to Fit</imageMode>
+      </zoneSpecificParameters>
+      <playlist>
+        <name>Playlist 4</name>
+        <type>interactive</type>
+        <states>
+          <initialState>Live Text</initialState>
+          <state>
+            <name>nu.nl</name>
+            <x>636</x>
+            <y>186</y>
+            <width>114</width>
+            <height>97</height>
+            <id>1</id>
+            <html5Item>
+              <name>nu.nl</name>
+              <htmlSiteName>nu.nl</htmlSiteName>
+              <enableExternalData>True</enableExternalData>
+              <enableCamera>False</enableCamera>
+              <enableMouseEvents>True</enableMouseEvents>
+              <displayCursor>False</displayCursor>
+              <hwzOn>True</hwzOn>
+              <enableScrollBars>False</enableScrollBars>
+              <useUserStylesheet>False</useUserStylesheet>
+              <userStylesheet />
+              <timeOnScreen>0</timeOnScreen>
+            </html5Item>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+            <notes />
+          </state>
+          <state>
+            <name>Live Text</name>
+            <x>450</x>
+            <y>189</y>
+            <width>114</width>
+            <height>97</height>
+            <id>3</id>
+            <templatePlaylistItem>
+              <stateName>Live Text</stateName>
+              <mrssLiveDataFeedName>opleveringSchepen</mrssLiveDataFeedName>
+              <mrssTextTemplateItem>
+                <elementName>title</elementName>
+                <textWidget>
+                  <numberOfLines>1</numberOfLines>
+                  <delay>5</delay>
+                  <rotation>0</rotation>
+                  <alignment>center</alignment>
+                  <scrollingMethod>2</scrollingMethod>
+                </textWidget>
+                <widget>
+                  <foregroundTextColor a="255" r="239" g="196" b="38" />
+                  <backgroundTextColor a="255" r="0" g="0" b="0" />
+                  <font>System</font>
+                  <fontSize>80</fontSize>
+                </widget>
+                <backgroundColorSpecified>False</backgroundColorSpecified>
+                <x>479</x>
+                <y>212</y>
+                <width>959</width>
+                <height>64</height>
+                <layer>1</layer>
+              </mrssTextTemplateItem>
+              <mrssTextTemplateItem>
+                <elementName>description</elementName>
+                <textWidget>
+                  <numberOfLines>1</numberOfLines>
+                  <delay>5</delay>
+                  <rotation>0</rotation>
+                  <alignment>center</alignment>
+                  <scrollingMethod>2</scrollingMethod>
+                </textWidget>
+                <widget>
+                  <foregroundTextColor a="255" r="255" g="255" b="254" />
+                  <backgroundTextColor a="255" r="0" g="0" b="0" />
+                  <font>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\05 Fonts aangeleverd\PNG logo en font.msg</font>
+                  <fontSize>50</fontSize>
+                </widget>
+                <backgroundColorSpecified>False</backgroundColorSpecified>
+                <x>42</x>
+                <y>339</y>
+                <width>916</width>
+                <height>445</height>
+                <layer>2</layer>
+              </mrssTextTemplateItem>
+              <mrssMediaTemplateItem>
+                <x>960</x>
+                <y>339</y>
+                <width>959</width>
+                <height>445</height>
+                <layer>3</layer>
+              </mrssMediaTemplateItem>
+            </templatePlaylistItem>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+            <notes />
+          </state>
+          <transition>
+            <sourceMediaState>nu.nl</sourceMediaState>
+            <userEvent>
+              <name>timeout</name>
+              <parameters>
+                <parameter>30</parameter>
+              </parameters>
+            </userEvent>
+            <targetMediaState>Live Text</targetMediaState>
+            <remainOnCurrentStateActions>None</remainOnCurrentStateActions>
+            <displayMode>displayLabel</displayMode>
+            <labelLocation>bottom</labelLocation>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+          <transition>
+            <sourceMediaState>Live Text</sourceMediaState>
+            <userEvent>
+              <name>timeout</name>
+              <parameters>
+                <parameter>30</parameter>
+              </parameters>
+            </userEvent>
+            <targetMediaState>nu.nl</targetMediaState>
+            <remainOnCurrentStateActions>None</remainOnCurrentStateActions>
+            <displayMode>displayLabel</displayMode>
+            <labelLocation>bottom</labelLocation>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+        </states>
+      </playlist>
+    </zone>
+    <zone>
+      <name>logo</name>
+      <x>24</x>
+      <y>24</y>
+      <width>120</width>
+      <height>120</height>
+      <type>Images</type>
+      <id>5</id>
+      <zoomValue>1</zoomValue>
+      <horizontalOffset>0</horizontalOffset>
+      <verticalOffset>0</verticalOffset>
+      <zoneSpecificParameters>
+        <imageMode>Scale to Fit</imageMode>
+      </zoneSpecificParameters>
+      <playlist>
+        <name>Playlist 1</name>
+        <type>interactive</type>
+        <states>
+          <initialState>Image List</initialState>
+          <state>
+            <name>Image List</name>
+            <x>439</x>
+            <y>196</y>
+            <width>114</width>
+            <height>97</height>
+            <id>0</id>
+            <mediaListItem>
+              <mediaType>image</mediaType>
+              <advanceOnMediaEnd>False</advanceOnMediaEnd>
+              <advanceOnImageTimeout>False</advanceOnImageTimeout>
+              <playFromBeginning>False</playFromBeginning>
+              <imageTimeout />
+              <support4KImages>False</support4KImages>
+              <shuffle>False</shuffle>
+              <slideTransition>No effect</slideTransition>
+              <sendZoneMessage>False</sendZoneMessage>
+              <startIndex>1</startIndex>
+              <mediaListStateInactivityTimeout>False</mediaListStateInactivityTimeout>
+              <mediaListStateInactivityTime />
+              <transitionDuration>1.0</transitionDuration>
+              <populateFromMediaLibrary>True</populateFromMediaLibrary>
+              <liveDataFeedName />
+              <files>
+                <imageItem>
+                  <file name="png dolderman_resized.png" suffix="" path="C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\04 Logo's aangeleverd\png dolderman_resized.png" />
+                  <fileIsLocal>True</fileIsLocal>
+                  <slideDelayInterval>6</slideDelayInterval>
+                  <slideTransition>No effect</slideTransition>
+                  <transitionDuration>1.0</transitionDuration>
+                  <videoPlayerRequired>False</videoPlayerRequired>
+                </imageItem>
+              </files>
+              <brightSignCmdsTransitionNextItem>
+              </brightSignCmdsTransitionNextItem>
+              <brightSignCmdsTransitionPrevItem>
+              </brightSignCmdsTransitionPrevItem>
+            </mediaListItem>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+            <notes />
+          </state>
+        </states>
+      </playlist>
+    </zone>
+    <zone>
+      <name>Tijd</name>
+      <x>1364</x>
+      <y>978</y>
+      <width>281</width>
+      <height>102</height>
+      <type>Clock</type>
+      <id>6</id>
+      <zoomValue>1</zoomValue>
+      <horizontalOffset>0</horizontalOffset>
+      <verticalOffset>0</verticalOffset>
+      <zoneSpecificParameters>
+        <displayTime>True</displayTime>
+        <rotation>0</rotation>
+        <widget>
+          <foregroundTextColor a="255" r="239" g="196" b="38" />
+          <backgroundTextColor a="0" r="0" g="0" b="0" />
+          <font>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\05 Fonts aangeleverd\PNG logo en font.msg</font>
+          <fontSize>0</fontSize>
+        </widget>
+      </zoneSpecificParameters>
+      <playlist>
+        <name>Playlist 6</name>
+        <type>non-interactive</type>
+        <clockItem />
+        <states>
+          <initialState />
+        </states>
+      </playlist>
+    </zone>
+    <zone>
+      <name>datum</name>
+      <x>1639</x>
+      <y>978</y>
+      <width>281</width>
+      <height>102</height>
+      <type>Clock</type>
+      <id>7</id>
+      <zoomValue>1</zoomValue>
+      <horizontalOffset>0</horizontalOffset>
+      <verticalOffset>0</verticalOffset>
+      <zoneSpecificParameters>
+        <displayTime>False</displayTime>
+        <rotation>0</rotation>
+        <widget>
+          <foregroundTextColor a="255" r="239" g="196" b="38" />
+          <backgroundTextColor a="0" r="0" g="0" b="0" />
+          <font>C:\Users\Matthias Broer\InAVate Dropbox\Matthias Broer\BrightSign (digital signage)\Dolderman\05 Fonts aangeleverd\PNG logo en font.msg</font>
+          <fontSize>0</fontSize>
+        </widget>
+      </zoneSpecificParameters>
+      <playlist>
+        <name>Playlist 7</name>
+        <type>non-interactive</type>
+        <clockItem />
+        <states>
+          <initialState />
+        </states>
+      </playlist>
+    </zone>
+  </zones>
+</BrightAuthor>
