@@ -47,6 +47,12 @@ def do_zone_swap(id1, id2):
     id1.text = id2.text
     id2.text = temp
 
+def create_output_file(file_directory, output_file, zone1, zone2):
+    tree = ET.parse(file_directory)
+    root = tree.getroot()
+    do_zone_swap(find_zone(root, zone1), find_zone(root, zone2))
+    tree.write(output_file)
+
 def main(arg_input_file, arg_output_file, arg_zone1, arg_zone2):
     print("From: " + arg_input_file + " is zone " + arg_zone1 + " swapped with zone " + arg_zone2 + " and saved to " + arg_output_file)
     tree = ET.parse(arg_input_file)

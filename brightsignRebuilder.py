@@ -23,9 +23,13 @@ def init_window(window_title):
     window.state('zoomed')
     return window
     
-def browse_file(label, window):
+def browse_file(label, window, changed_file=False):
     '''Opens a file explorer window and stores the file directory in a global variable'''
-    global file_directory, zone_name_dict, zone_id_dict, zone_label_dict
+    global file_directory, zone_name_dict, zone_id_dict, zone_label_dict, output_file
+    if changed_file:
+        zone_name_dict, zone_id_dict = zs.find_zone_names(zs.get_root(output_file), True)
+        print_zone_names(window, True)
+        return
     # Destroy all zone labels if they exist
     for zone_label in zone_label_dict: zone_label.destroy()
     # Open a file explorer window
@@ -38,9 +42,19 @@ def browse_file(label, window):
     print("Zone Id: ", zone_id_dict)
     print_zone_names(window)
 
-def print_zone_names(window):
+def print_zone_names(window, changed_file=False):
     '''Prints the zone names to the tkinter window'''
     global zone_name_dict, zone_id_dict, zone_label_dict
+    if changed_file:
+        iterebol = 0
+        zone_label = tk.Label(window, text="Changes Zones:", font=('Calibri 15 bold'))	
+        zone_label.place(x=25, y=325)
+        for zone_id in zone_id_dict:
+            label = tk.Label(window, text="Zone: " + zone_id + " "+ zone_name_dict[iterebol], font=('Calibri 15 bold'))
+            label.place(x=25, y=iterebol*30+355)
+            iterebol += 1
+            zone_label_dict.append(label)
+        return
     iterebol = 0
     zone_label = tk.Label(window, text="Found Zones:", font=('Calibri 15 bold'))	
     zone_label.place(x=25, y=25)
@@ -50,19 +64,21 @@ def print_zone_names(window):
         iterebol += 1
         zone_label_dict.append(label)
 
-def get_user_input(output_file_entry, zone1_entry, zone2_entry):
+def get_user_input(label_file_explorer, window, output_file_entry, zone1_entry, zone2_entry):
     '''Gets the user input from the tkinter window'''
     global output_file, zone1, zone2
-    output_file = output_file_entry.get()
+    output_file = output_file_entry.get() + ".bpf"
     zone1 = zone1_entry.get()
     zone2 = zone2_entry.get()
+    # Create the output file
+    create_outputfile(label_file_explorer, window)
 
-def get_output_file(label, filename):
-    '''Gets the output file name from the user'''
-    global output_file
-    output_file = filename.get()
-    label["text"] = "Output File: " + output_file
-    debug()
+def create_outputfile(label_file_explorer, window):
+    '''Creates the output file'''
+    global output_file, zone1, zone2, file_directory
+    # Create the output file
+    zs.create_output_file(file_directory, output_file, zone1, zone2)
+    browse_file(label_file_explorer, window, True)
 
 def debug():
     '''Debugging function'''
@@ -99,7 +115,7 @@ def main():
     zone2_entry.focus_set()
     zone2_entry.place(x=1920/2+100, y=280)
     #  The submit button
-    ttk.Button(window, text="Submit", command=lambda:get_user_input(output_file_entry, zone1_entry, zone2_entry)).place(x=1920/2, y=320)
+    ttk.Button(window, text="Submit", command=lambda:get_user_input(label_file_explorer, window, output_file_entry, zone1_entry, zone2_entry)).place(x=1920/2, y=320)
     
     # Run main loop
     window.mainloop()
