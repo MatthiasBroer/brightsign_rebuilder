@@ -57,11 +57,6 @@ def get_user_input(output_file_entry, zone1_entry, zone2_entry):
     zone1 = zone1_entry.get()
     zone2 = zone2_entry.get()
 
-
-def create_output_file():
-    '''Creates the output file'''
-    pass
-
 def get_output_file(label, filename):
     '''Gets the output file name from the user'''
     global output_file
