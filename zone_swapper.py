@@ -1,7 +1,12 @@
 import xml.etree.ElementTree as ET
 import argparse
 
-def find_zone_names(root):
+def get_root(file):
+    tree = ET.parse(file)
+    root = tree.getroot()
+    return root
+
+def find_zone_names(root, get_list=False):
     zone_name_dict = []
     zone_id_dict = []
     for child in root:
@@ -16,9 +21,12 @@ def find_zone_names(root):
             for child_id in id_tag:
                 if child_id.tag == 'id':
                     zone_id_dict.append(child_id.text)
-    print("De volgende zones zijn gevonden: ")
-    for i in range(len(zone_name_dict)):
-        print("\t Zone name: ", zone_name_dict[i] + ", met volgende zone id: ", zone_id_dict[i])
+    if get_list:
+        return zone_name_dict, zone_id_dict
+    else:
+        print("De volgende zones zijn gevonden: ")
+        for i in range(len(zone_name_dict)):
+            print("\t Zone name: ", zone_name_dict[i] + ", met volgende zone id: ", zone_id_dict[i])
 
 def find_zone(root, zone_id):
     for child in root:
