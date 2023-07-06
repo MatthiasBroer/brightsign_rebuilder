@@ -3,6 +3,8 @@ import os
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
+from tkinter import *
+from PIL import ImageTk, Image
 import zone_swapper as zs
 
 # global variables
@@ -12,6 +14,7 @@ output_file = ""
 zone_name_dict = []
 zone_id_dict = []
 zone_label_dict = []
+image_path = "Logo1.png"
  
 def init_window(window_title):
     '''Initializes the Tkinter window'''
@@ -66,16 +69,32 @@ def print_zone_names(window, changed_file=False):
 
 def get_user_input(label_file_explorer, window, output_file_entry, zone1_entry, zone2_entry):
     '''Gets the user input from the tkinter window'''
-    global output_file, zone1, zone2
+    global file_directory, output_file, zone1, zone2
+    #  check if the file directory is empty
+    if file_directory == "":
+        # If so, display a warning label with the color red
+        label_file_explorer.configure(text="Please select a file")
+        return
     output_file = output_file_entry.get() + ".bpf"
     zone1 = zone1_entry.get()
     zone2 = zone2_entry.get()
+    #  Check if all the fields are filled out
+    if output_file == "" or zone1 == "" or zone2 == "" or output_file == "":
+        # If not, display a warning label with the color red
+        label_file_explorer.configure(text="Please fill out all fields")
+        return
     # Create the output file
     create_outputfile(label_file_explorer, window)
 
 def create_outputfile(label_file_explorer, window):
     '''Creates the output file'''
     global output_file, zone1, zone2, file_directory
+    # remove all waring labels if they exist
+    label_file_explorer.configure(text=file_directory)
+    # Check if the zone id's are valid
+    if zone1 not in zone_id_dict or zone2 not in zone_id_dict:
+        label_file_explorer.configure(text="Invalid Zone ID's")
+        return
     # Create the output file
     zs.create_output_file(file_directory, output_file, zone1, zone2)
     browse_file(label_file_explorer, window, True)
@@ -117,6 +136,13 @@ def main():
     #  The submit button
     ttk.Button(window, text="Submit", command=lambda:get_user_input(label_file_explorer, window, output_file_entry, zone1_entry, zone2_entry)).place(x=1920/2, y=320)
     
+    # Display the image on the button left corner of the window
+    img = ImageTk.PhotoImage(Image.open(image_path).resize((269, 86)))
+    # resize the image
+    # img = img.resize((537.2, 171.2), Image.ANTIALIAS)
+    image_label = tk.Label(window, image = img)
+    image_label.place(relx=0.0, rely=1.0, anchor='sw')
+
     # Run main loop
     window.mainloop()
 
